@@ -37,7 +37,7 @@
       <td>{{$customer->email}}</td>
       <td>{{$customer->contactNumber}}</td>
       <td>{{$customer->address}} </td>
-      <td><a href="#"><button type="button" class="btn btn-primary">EDIT</button></td>
+      <td><a href="edit/{{$customer->id}}"><button type="button" class="btn btn-primary">EDIT</button></td>
       <td><a href="delete/{{$customer->id}}"><button type="button" class="btn btn-danger">DELETE</button></td>
       @endforeach
     </tr>
